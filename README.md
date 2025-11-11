@@ -45,17 +45,17 @@ pz7-redis/
 ```
 
 ## Отчёт о проделанной работе
-установка значения
+установка значения POST
 ```
-[GET http://193.233.171.146:8080/set?key=test&value=hello](http://193.233.171.146:8080/set?key=test&value=hello)
+http://193.233.171.146:8080/set?key=test&value=hello
 ```
-получение значения
+получение значения GET
 ```
-[GET http://193.233.171.146:8080/set?key=test&value=hello](http://193.233.171.146:8080/get?key=test)
+http://193.233.171.146:8080/get?key=test
 ```
-проверка TTL
+проверка TTL GET
 ```
-[GET http://193.233.171.146:8080/set?key=test&value=hello](http://193.233.171.146:8080/ttl?key=test)
+http://193.233.171.146:8080/ttl?key=test
 ```
 <img width="442" height="399" alt="image" src="https://github.com/user-attachments/assets/8abedb59-dae4-4480-baa6-eb365e84bd32" />
 <img width="378" height="397" alt="image" src="https://github.com/user-attachments/assets/48771c93-426b-4b65-9f95-a1232274b8ac" />
