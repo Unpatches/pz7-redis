@@ -47,18 +47,25 @@ pz7-redis/
 ## Отчёт о проделанной работе
 установка значения POST
 ```
-http://193.233.171.146:8080/set?key=test&value=hello
+http://217.119.129.232:8080/set?key=test&value=hello
 ```
+
+<img width="475" height="433" alt="image" src="https://github.com/user-attachments/assets/cb096837-6639-4c96-b605-5b85dd2da72c" />
+
 получение значения GET
 ```
-http://193.233.171.146:8080/get?key=test
+http://217.119.129.232:8080/get?key=test
 ```
+
+<img width="423" height="400" alt="image" src="https://github.com/user-attachments/assets/b2725afd-72a8-4bdb-b742-eede225cfd7c" />
+
 проверка TTL GET
 ```
-http://193.233.171.146:8080/ttl?key=test
+http://217.119.129.232:8080/ttl?key=test
 ```
-<img width="442" height="399" alt="image" src="https://github.com/user-attachments/assets/8abedb59-dae4-4480-baa6-eb365e84bd32" />
-<img width="378" height="397" alt="image" src="https://github.com/user-attachments/assets/48771c93-426b-4b65-9f95-a1232274b8ac" />
-<img width="369" height="407" alt="image" src="https://github.com/user-attachments/assets/c9a9816c-26c9-40be-967c-9df8b1ff7151" />
+
+<img width="384" height="407" alt="image" src="https://github.com/user-attachments/assets/07301e96-df2e-40f3-be2a-0d399ee6d0e2" />
+
+
 
 
